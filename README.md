@@ -1,7 +1,10 @@
-This connector is a modified version of the original https://github.com/elastic/connectors/blob/main/connectors/sources/servicenow.py
+Customized ServiceNow Connector
+This connector is a modified version of the original ServiceNow Connector from the Elastic Connectors repository.
 
-I've added a number of tables that can be indexed from ServiceNow using this customized connector code. 
+I've added a number of tables that can be indexed from ServiceNow using this customized connector code.
 
+Added Tables
+The following tables have been added to the connector:
 #added additional tables
     "incident": ["admin", "sn_incident_read", "ml_report_user", "ml_admin", "itil"],
     "kb_knowledge": ["admin", "knowledge", "knowledge_manager", "knowledge_admin"],
