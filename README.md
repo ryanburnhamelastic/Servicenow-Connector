@@ -18,3 +18,5 @@ I've added a number of tables that can be indexed from ServiceNow using this cus
     "u_integration": ["admin"],
     "cmdb_ci_business_app": ["admin"],
     "core_country.u_change_country_cluster": ["admin"],
+
+    
